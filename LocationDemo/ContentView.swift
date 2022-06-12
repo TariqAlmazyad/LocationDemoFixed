@@ -70,7 +70,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     }
 }
 
-
+// MARK: - Do not forget about your plist
 struct LocationView: View {
     @StateObject var locationManager = LocationManager()
     var body: some View {

@@ -11,6 +11,7 @@ import SwiftUI
 struct LocationDemoApp: App {
     var body: some Scene {
         WindowGroup {
+            
             LocationView()
         }
     }
